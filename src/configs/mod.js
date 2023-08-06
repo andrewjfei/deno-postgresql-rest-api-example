@@ -1,0 +1,1 @@
+export { databaseClient } from "./database_config.js";
