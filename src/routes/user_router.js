@@ -6,6 +6,7 @@ const userRouter = new Router();
 
 // register user routes
 userRouter
+  .post("/", UserController.addNewUser)
   .get("/", UserController.getAllUsers);
 
 export { userRouter };
